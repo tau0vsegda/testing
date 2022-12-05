@@ -1,0 +1,15 @@
+D:\study\тестирование\triangle\triangle_test\bin\Debug\net6.0\triangle_test.exe
+D:\study\тестирование\triangle\triangle_test\bin\Debug\net6.0\triangle_test.deps.json
+D:\study\тестирование\triangle\triangle_test\bin\Debug\net6.0\triangle_test.runtimeconfig.json
+D:\study\тестирование\triangle\triangle_test\bin\Debug\net6.0\triangle_test.dll
+D:\study\тестирование\triangle\triangle_test\bin\Debug\net6.0\triangle_test.pdb
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\triangle_test.csproj.AssemblyReference.cache
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\triangle_test.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\triangle_test.AssemblyInfoInputs.cache
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\triangle_test.AssemblyInfo.cs
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\triangle_test.csproj.CoreCompileInputs.cache
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\triangle_test.dll
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\refint\triangle_test.dll
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\triangle_test.pdb
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\triangle_test.genruntimeconfig.cache
+D:\study\тестирование\triangle\triangle_test\obj\Debug\net6.0\ref\triangle_test.dll

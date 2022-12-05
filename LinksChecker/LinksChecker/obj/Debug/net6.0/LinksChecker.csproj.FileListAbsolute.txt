@@ -1,0 +1,17 @@
+D:\study\тестирование\LinksChecker\LinksChecker\bin\Debug\net6.0\LinksChecker.exe
+D:\study\тестирование\LinksChecker\LinksChecker\bin\Debug\net6.0\LinksChecker.deps.json
+D:\study\тестирование\LinksChecker\LinksChecker\bin\Debug\net6.0\LinksChecker.runtimeconfig.json
+D:\study\тестирование\LinksChecker\LinksChecker\bin\Debug\net6.0\LinksChecker.dll
+D:\study\тестирование\LinksChecker\LinksChecker\bin\Debug\net6.0\LinksChecker.pdb
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.csproj.AssemblyReference.cache
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.AssemblyInfoInputs.cache
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.AssemblyInfo.cs
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.csproj.CoreCompileInputs.cache
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.dll
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\refint\LinksChecker.dll
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.pdb
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.genruntimeconfig.cache
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\ref\LinksChecker.dll
+D:\study\тестирование\LinksChecker\LinksChecker\bin\Debug\net6.0\AngleSharp.dll
+D:\study\тестирование\LinksChecker\LinksChecker\obj\Debug\net6.0\LinksChecker.csproj.CopyComplete
