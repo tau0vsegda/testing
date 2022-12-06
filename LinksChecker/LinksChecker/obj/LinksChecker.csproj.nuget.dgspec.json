@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\study\\тестирование\\LinksChecker\\LinksChecker\\LinksChecker.csproj": {}
+    "D:\\study\\testing\\LinksChecker\\LinksChecker\\LinksChecker.csproj": {}
   },
   "projects": {
-    "D:\\study\\тестирование\\LinksChecker\\LinksChecker\\LinksChecker.csproj": {
+    "D:\\study\\testing\\LinksChecker\\LinksChecker\\LinksChecker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\study\\тестирование\\LinksChecker\\LinksChecker\\LinksChecker.csproj",
+        "projectUniqueName": "D:\\study\\testing\\LinksChecker\\LinksChecker\\LinksChecker.csproj",
         "projectName": "LinksChecker",
-        "projectPath": "D:\\study\\тестирование\\LinksChecker\\LinksChecker\\LinksChecker.csproj",
+        "projectPath": "D:\\study\\testing\\LinksChecker\\LinksChecker\\LinksChecker.csproj",
         "packagesPath": "C:\\Users\\tau13\\.nuget\\packages\\",
-        "outputPath": "D:\\study\\тестирование\\LinksChecker\\LinksChecker\\obj\\",
+        "outputPath": "D:\\study\\testing\\LinksChecker\\LinksChecker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tau13\\AppData\\Roaming\\NuGet\\NuGet.Config",

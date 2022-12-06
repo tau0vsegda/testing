@@ -7,10 +7,10 @@ namespace MakeAGETRequest_charp
 {
     class LinksChecker
     {
-        private const string SOURCE_URL = "https://www.travelline.ru";
-        //private const string SOURCE_URL = "http://links.qatl.ru";
-        private const string COR_PATH = "D:\\study\\тестирование\\LinksChecker\\LinksChecker\\CorrectLinks.txt";
-        private const string INCOR_PATH = "D:\\study\\тестирование\\LinksChecker\\LinksChecker\\IncorrectLinks.txt";
+        //private const string SOURCE_URL = "https://www.travelline.ru";
+        private const string SOURCE_URL = "http://links.qatl.ru";
+        private const string COR_PATH = "D:\\study\\testing\\LinksChecker\\LinksChecker\\CorrectLinks.txt";
+        private const string INCOR_PATH = "D:\\study\\testing\\LinksChecker\\LinksChecker\\IncorrectLinks.txt";
         private static HashSet<string> allLinks = new();
         private static HashSet<string> tempCorLinks = new();
         private static HashSet<string> nowLinks = new();
@@ -74,12 +74,13 @@ namespace MakeAGETRequest_charp
             try
             {
                 response = (HttpWebResponse)webRequest.GetResponse();
+                statusCode = (int)response.StatusCode;
             }
             catch (WebException e)
             {
                 response = (HttpWebResponse)e.Response;
+                statusCode = (int)response.StatusCode;
             }
-            statusCode = (int)response.StatusCode;
             return statusCode;
         }
 
@@ -92,7 +93,7 @@ namespace MakeAGETRequest_charp
                 {
                     allLinks.Add(link);
                     statusCode = GetStatusCode(link);
-                    if (statusCode < 300)
+                    if (statusCode <= 302)
                     {
                         corLinks++;
                         writerCor.WriteLine("{0} {1}", link, statusCode);
@@ -113,16 +114,22 @@ namespace MakeAGETRequest_charp
             using StreamWriter writerCor = new StreamWriter(COR_PATH);
             using StreamWriter writerIncor = new StreamWriter(INCOR_PATH);
             allLinks.Add(SOURCE_URL);
-            if(GetStatusCode(SOURCE_URL) < 300)
+            if(GetStatusCode(SOURCE_URL) <= 302)
             {
                 tempCorLinks.Add(SOURCE_URL);
             }
             while (tempCorLinks.Count() > 0)
             {
-                Console.WriteLine("{0} {1}",allLinks.Count, tempCorLinks.Count);
                 foreach(string link in tempCorLinks)
                 {
-                    nowLinks.UnionWith(ParseDocument(await GetDocument(link)));
+                    try
+                    {
+                        IDocument doc = await GetDocument(link);
+                        nowLinks.UnionWith(ParseDocument(doc));
+                    }
+                    catch
+                    {
+                    }
                 }
                 tempCorLinks.Clear();
                 CheckNowLinks(nowLinks, tempCorLinks, writerCor, writerIncor);

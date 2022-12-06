@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oyYCGC3EPINcWo7a7t/BXWDk2wnBU8telnG/fyw6TBpEEbMsvBQqPP9Zc3DCdyiC84h0/ZDURiIrc9HUAZ9YYw==",
+  "dgSpecHash": "6s7fTYlRoNT7quOm+SGlpLxZjdB6Rb3jeZOkdse+tv3tA7hr3Mj3nR+Tgf2cdNghL3oV1sC8eDUTzKgPcXRhvA==",
   "success": true,
-  "projectFilePath": "D:\\study\\тестирование\\LinksChecker\\LinksChecker\\LinksChecker.csproj",
+  "projectFilePath": "D:\\study\\testing\\LinksChecker\\LinksChecker\\LinksChecker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tau13\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\tau13\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
